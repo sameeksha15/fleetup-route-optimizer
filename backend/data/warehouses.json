@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Mumbai - Andheri East",
+    "latitude": 19.1196,
+    "longitude": 72.8678
+  },
+  {
+    "id": 2,
+    "name": "Mumbai - Kurla",
+    "latitude": 19.072,
+    "longitude": 72.877
+  },
+  {
+    "id": 3,
+    "name": "Mumbai - Chembur",
+    "latitude": 19.034,
+    "longitude": 72.914
+  },
+  {
+    "id": 4,
+    "name": "Navi Mumbai - Vashi",
+    "latitude": 19.075319,
+    "longitude": 72.985268
+  },
+  {
+    "id": 5,
+    "name": "Navi Mumbai - Belapur",
+    "latitude": 19.036,
+    "longitude": 73.008
+  },
+  {
+    "id": 6,
+    "name": "Navi Mumbai - Nerul",
+    "latitude": 19.036504,
+    "longitude": 73.012678
+  },
+  {
+    "id": 7,
+    "name": "Thane - City Center",
+    "latitude": 19.218,
+    "longitude": 72.978
+  },
+  {
+    "id": 8,
+    "name": "Thane - Ghodbunder Corridor",
+    "latitude": 19.233,
+    "longitude": 73.001
+  },
+  {
+    "id": 9,
+    "name": "Thane - Kalyan",
+    "latitude": 19.25,
+    "longitude": 73.15
+  }
+]

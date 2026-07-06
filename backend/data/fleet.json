@@ -1,0 +1,11 @@
+[
+  { "id": 1, "capacity_kg": 1000, "volume_m3": 9, "warehouse_id": 1, "length_cm": 300, "width_cm": 200, "height_cm": 150 },
+  { "id": 2, "capacity_kg": 1000, "volume_m3": 9, "warehouse_id": 2, "length_cm": 300, "width_cm": 200, "height_cm": 150 },
+  { "id": 3, "capacity_kg": 1000, "volume_m3": 9, "warehouse_id": 3, "length_cm": 300, "width_cm": 200, "height_cm": 150 },
+  { "id": 4, "capacity_kg": 750, "volume_m3": 7, "warehouse_id": 4, "length_cm": 290, "width_cm": 180, "height_cm": 135 },
+  { "id": 5, "capacity_kg": 750, "volume_m3": 7, "warehouse_id": 5, "length_cm": 290, "width_cm": 180, "height_cm": 135 },
+  { "id": 6, "capacity_kg": 750, "volume_m3": 7, "warehouse_id": 6, "length_cm": 290, "width_cm": 180, "height_cm": 135 },
+  { "id": 7, "capacity_kg": 1250, "volume_m3": 10, "warehouse_id": 7, "length_cm": 320, "width_cm": 200, "height_cm": 160 },
+  { "id": 8, "capacity_kg": 1250, "volume_m3": 10, "warehouse_id": 8, "length_cm": 320, "width_cm": 200, "height_cm": 160 },
+  { "id": 9, "capacity_kg": 1250, "volume_m3": 10, "warehouse_id": 9, "length_cm": 320, "width_cm": 200, "height_cm": 160 }
+]

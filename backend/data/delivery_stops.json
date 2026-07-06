@@ -1,0 +1,746 @@
+[
+  {
+    "warehouse_id": 1,
+    "address": "Andheri East Stop 1",
+    "latitude": 19.1696,
+    "longitude": 72.9078,
+    "window_start_min": 540,
+    "window_end_min": 1080
+  },
+  {
+    "warehouse_id": 1,
+    "address": "Andheri East Stop 2",
+    "latitude": 19.0696,
+    "longitude": 72.9178,
+    "window_start_min": 540,
+    "window_end_min": 750
+  },
+  {
+    "warehouse_id": 1,
+    "address": "Andheri East Stop 3",
+    "latitude": 19.1596,
+    "longitude": 72.8228,
+    "window_start_min": 540,
+    "window_end_min": 780
+  },
+  {
+    "warehouse_id": 1,
+    "address": "Andheri East Stop 4",
+    "latitude": 19.1546,
+    "longitude": 72.9228,
+    "window_start_min": 630,
+    "window_end_min": 810
+  },
+  {
+    "warehouse_id": 1,
+    "address": "Andheri East Stop 5",
+    "latitude": 19.1596,
+    "longitude": 72.8978,
+    "window_start_min": 840,
+    "window_end_min": 1020
+  },
+  {
+    "warehouse_id": 1,
+    "address": "Andheri East Stop 6",
+    "latitude": 19.0896,
+    "longitude": 72.8378,
+    "window_start_min": 540,
+    "window_end_min": 1050
+  },
+  {
+    "warehouse_id": 1,
+    "address": "Andheri East Stop 7",
+    "latitude": 19.1796,
+    "longitude": 72.8578,
+    "window_start_min": 900,
+    "window_end_min": 1080
+  },
+  {
+    "warehouse_id": 1,
+    "address": "Andheri East Stop 8",
+    "latitude": 19.1396,
+    "longitude": 72.8478,
+    "window_start_min": 540,
+    "window_end_min": 810
+  },
+  {
+    "warehouse_id": 1,
+    "address": "Andheri East Stop 9",
+    "latitude": 19.1096,
+    "longitude": 72.9278,
+    "window_start_min": 540,
+    "window_end_min": 840
+  },
+  {
+    "warehouse_id": 1,
+    "address": "Andheri East Stop 10",
+    "latitude": 19.1796,
+    "longitude": 72.8978,
+    "window_start_min": 540,
+    "window_end_min": 870
+  },
+  {
+    "warehouse_id": 2,
+    "address": "Kurla Stop 1",
+    "latitude": 19.0701,
+    "longitude": 72.8787,
+    "window_start_min": 540,
+    "window_end_min": 900
+  },
+  {
+    "warehouse_id": 2,
+    "address": "Kurla Stop 2",
+    "latitude": 19.0834,
+    "longitude": 72.8845,
+    "window_start_min": 750,
+    "window_end_min": 930
+  },
+  {
+    "warehouse_id": 2,
+    "address": "Kurla Stop 3",
+    "latitude": 19.0673,
+    "longitude": 72.8712,
+    "window_start_min": 570,
+    "window_end_min": 1020
+  },
+  {
+    "warehouse_id": 2,
+    "address": "Kurla Stop 4",
+    "latitude": 19.0756,
+    "longitude": 72.8833,
+    "window_start_min": 600,
+    "window_end_min": 1020
+  },
+  {
+    "warehouse_id": 2,
+    "address": "Kurla Stop 5",
+    "latitude": 19.0861,
+    "longitude": 72.8629,
+    "window_start_min": 540,
+    "window_end_min": 960
+  },
+  {
+    "warehouse_id": 2,
+    "address": "Kurla Stop 6",
+    "latitude": 19.0778,
+    "longitude": 72.877,
+    "window_start_min": 540,
+    "window_end_min": 990
+  },
+  {
+    "warehouse_id": 2,
+    "address": "Kurla Stop 7",
+    "latitude": 19.0715,
+    "longitude": 72.8654,
+    "window_start_min": 720,
+    "window_end_min": 840
+  },
+  {
+    "warehouse_id": 2,
+    "address": "Kurla Stop 8",
+    "latitude": 19.0649,
+    "longitude": 72.8891,
+    "window_start_min": 870,
+    "window_end_min": 990
+  },
+  {
+    "warehouse_id": 2,
+    "address": "Kurla Stop 9",
+    "latitude": 19.0803,
+    "longitude": 72.8678,
+    "window_start_min": 900,
+    "window_end_min": 1020
+  },
+  {
+    "warehouse_id": 2,
+    "address": "Kurla Stop 10",
+    "latitude": 19.0726,
+    "longitude": 72.8744,
+    "window_start_min": 540,
+    "window_end_min": 1050
+  },
+  {
+    "warehouse_id": 3,
+    "address": "Chembur Stop 1",
+    "latitude": 19.0415,
+    "longitude": 72.9234,
+    "window_start_min": 570,
+    "window_end_min": 690
+  },
+  {
+    "warehouse_id": 3,
+    "address": "Chembur Stop 2",
+    "latitude": 19.043,
+    "longitude": 72.924,
+    "window_start_min": 540,
+    "window_end_min": 720
+  },
+  {
+    "warehouse_id": 3,
+    "address": "Chembur Stop 3",
+    "latitude": 19.0395,
+    "longitude": 72.9225,
+    "window_start_min": 630,
+    "window_end_min": 750
+  },
+  {
+    "warehouse_id": 3,
+    "address": "Chembur Stop 4",
+    "latitude": 19.044,
+    "longitude": 72.92,
+    "window_start_min": 540,
+    "window_end_min": 780
+  },
+  {
+    "warehouse_id": 3,
+    "address": "Chembur Stop 5",
+    "latitude": 19.04,
+    "longitude": 72.926,
+    "window_start_min": 540,
+    "window_end_min": 1080
+  },
+  {
+    "warehouse_id": 3,
+    "address": "Chembur Stop 6",
+    "latitude": 19.038,
+    "longitude": 72.921,
+    "window_start_min": 540,
+    "window_end_min": 1080
+  },
+  {
+    "warehouse_id": 3,
+    "address": "Chembur Stop 7",
+    "latitude": 19.042,
+    "longitude": 72.925,
+    "window_start_min": 630,
+    "window_end_min": 1020
+  },
+  {
+    "warehouse_id": 3,
+    "address": "Chembur Stop 8",
+    "latitude": 19.039,
+    "longitude": 72.927,
+    "window_start_min": 660,
+    "window_end_min": 1020
+  },
+  {
+    "warehouse_id": 3,
+    "address": "Chembur Stop 9",
+    "latitude": 19.0445,
+    "longitude": 72.923,
+    "window_start_min": 750,
+    "window_end_min": 870
+  },
+  {
+    "warehouse_id": 3,
+    "address": "Chembur Stop 10",
+    "latitude": 19.041,
+    "longitude": 72.9205,
+    "window_start_min": 780,
+    "window_end_min": 900
+  },
+  {
+    "warehouse_id": 4,
+    "address": "Vashi Stop 1",
+    "latitude": 19.0335,
+    "longitude": 73.0195,
+    "window_start_min": 540,
+    "window_end_min": 930
+  },
+  {
+    "warehouse_id": 4,
+    "address": "Vashi Stop 2",
+    "latitude": 19.034,
+    "longitude": 73.0202,
+    "window_start_min": 540,
+    "window_end_min": 960
+  },
+  {
+    "warehouse_id": 4,
+    "address": "Vashi Stop 3",
+    "latitude": 19.0328,
+    "longitude": 73.0183,
+    "window_start_min": 540,
+    "window_end_min": 1020
+  },
+  {
+    "warehouse_id": 4,
+    "address": "Vashi Stop 4",
+    "latitude": 19.0332,
+    "longitude": 73.02,
+    "window_start_min": 540,
+    "window_end_min": 1080
+  },
+  {
+    "warehouse_id": 4,
+    "address": "Vashi Stop 5",
+    "latitude": 19.0345,
+    "longitude": 73.019,
+    "window_start_min": 540,
+    "window_end_min": 1080
+  },
+  {
+    "warehouse_id": 4,
+    "address": "Vashi Stop 6",
+    "latitude": 19.033,
+    "longitude": 73.0178,
+    "window_start_min": 540,
+    "window_end_min": 750
+  },
+  {
+    "warehouse_id": 4,
+    "address": "Vashi Stop 7",
+    "latitude": 19.0325,
+    "longitude": 73.0198,
+    "window_start_min": 540,
+    "window_end_min": 780
+  },
+  {
+    "warehouse_id": 4,
+    "address": "Vashi Stop 8",
+    "latitude": 19.0338,
+    "longitude": 73.0205,
+    "window_start_min": 630,
+    "window_end_min": 810
+  },
+  {
+    "warehouse_id": 4,
+    "address": "Vashi Stop 9",
+    "latitude": 19.0342,
+    "longitude": 73.0185,
+    "window_start_min": 840,
+    "window_end_min": 1020
+  },
+  {
+    "warehouse_id": 4,
+    "address": "Vashi Stop 10",
+    "latitude": 19.032,
+    "longitude": 73.0192,
+    "window_start_min": 540,
+    "window_end_min": 1050
+  },
+  {
+    "warehouse_id": 5,
+    "address": "Belapur Stop 1",
+    "latitude": 19.002,
+    "longitude": 73.0146,
+    "window_start_min": 900,
+    "window_end_min": 1080
+  },
+  {
+    "warehouse_id": 5,
+    "address": "Belapur Stop 2",
+    "latitude": 19.0055,
+    "longitude": 73.0163,
+    "window_start_min": 540,
+    "window_end_min": 810
+  },
+  {
+    "warehouse_id": 5,
+    "address": "Belapur Stop 3",
+    "latitude": 19.0078,
+    "longitude": 73.0121,
+    "window_start_min": 540,
+    "window_end_min": 840
+  },
+  {
+    "warehouse_id": 5,
+    "address": "Belapur Stop 4",
+    "latitude": 19.0003,
+    "longitude": 73.0154,
+    "window_start_min": 540,
+    "window_end_min": 870
+  },
+  {
+    "warehouse_id": 5,
+    "address": "Belapur Stop 5",
+    "latitude": 19.0041,
+    "longitude": 73.0138,
+    "window_start_min": 540,
+    "window_end_min": 900
+  },
+  {
+    "warehouse_id": 5,
+    "address": "Belapur Stop 6",
+    "latitude": 19.0036,
+    "longitude": 73.0179,
+    "window_start_min": 750,
+    "window_end_min": 930
+  },
+  {
+    "warehouse_id": 5,
+    "address": "Belapur Stop 7",
+    "latitude": 19.0069,
+    "longitude": 73.0115,
+    "window_start_min": 570,
+    "window_end_min": 1020
+  },
+  {
+    "warehouse_id": 5,
+    "address": "Belapur Stop 8",
+    "latitude": 19.0012,
+    "longitude": 73.0182,
+    "window_start_min": 600,
+    "window_end_min": 1020
+  },
+  {
+    "warehouse_id": 5,
+    "address": "Belapur Stop 9",
+    "latitude": 19.0084,
+    "longitude": 73.0141,
+    "window_start_min": 540,
+    "window_end_min": 960
+  },
+  {
+    "warehouse_id": 5,
+    "address": "Belapur Stop 10",
+    "latitude": 19.0027,
+    "longitude": 73.0128,
+    "window_start_min": 540,
+    "window_end_min": 990
+  },
+  {
+    "warehouse_id": 6,
+    "address": "Stop 1",
+    "latitude": 19.087498,
+    "longitude": 73.012004,
+    "window_start_min": 720,
+    "window_end_min": 840
+  },
+  {
+    "warehouse_id": 6,
+    "address": "Stop 2",
+    "latitude": 19.068841,
+    "longitude": 73.013849,
+    "window_start_min": 870,
+    "window_end_min": 990
+  },
+  {
+    "warehouse_id": 6,
+    "address": "Stop 3",
+    "latitude": 19.047969,
+    "longitude": 73.014911,
+    "window_start_min": 900,
+    "window_end_min": 1020
+  },
+  {
+    "warehouse_id": 6,
+    "address": "Stop 4",
+    "latitude": 19.065718,
+    "longitude": 72.994366,
+    "window_start_min": 540,
+    "window_end_min": 1050
+  },
+  {
+    "warehouse_id": 6,
+    "address": "Stop 5",
+    "latitude": 19.085869,
+    "longitude": 73.000551,
+    "window_start_min": 570,
+    "window_end_min": 690
+  },
+  {
+    "warehouse_id": 6,
+    "address": "Stop 6",
+    "latitude": 19.098452,
+    "longitude": 73.009944,
+    "window_start_min": 540,
+    "window_end_min": 720
+  },
+  {
+    "warehouse_id": 6,
+    "address": "Stop 7",
+    "latitude": 19.098893,
+    "longitude": 73.022046,
+    "window_start_min": 630,
+    "window_end_min": 750
+  },
+  {
+    "warehouse_id": 6,
+    "address": "Stop 8",
+    "latitude": 19.012006,
+    "longitude": 73.013978,
+    "window_start_min": 540,
+    "window_end_min": 780
+  },
+  {
+    "warehouse_id": 6,
+    "address": "Stop 9",
+    "latitude": 19.070423,
+    "longitude": 72.984624,
+    "window_start_min": 540,
+    "window_end_min": 1080
+  },
+  {
+    "warehouse_id": 6,
+    "address": "Stop 10",
+    "latitude": 19.126153,
+    "longitude": 72.989559,
+    "window_start_min": 540,
+    "window_end_min": 1080
+  },
+  {
+    "warehouse_id": 7,
+    "address": "Stop 1",
+    "latitude": 19.187746,
+    "longitude": 72.948524,
+    "window_start_min": 630,
+    "window_end_min": 1020
+  },
+  {
+    "warehouse_id": 7,
+    "address": "Stop 2",
+    "latitude": 19.182922,
+    "longitude": 72.962814,
+    "window_start_min": 660,
+    "window_end_min": 1020
+  },
+  {
+    "warehouse_id": 7,
+    "address": "Stop 3",
+    "latitude": 19.169568,
+    "longitude": 72.962523,
+    "window_start_min": 750,
+    "window_end_min": 870
+  },
+  {
+    "warehouse_id": 7,
+    "address": "Stop 4",
+    "latitude": 19.162677,
+    "longitude": 72.942181,
+    "window_start_min": 780,
+    "window_end_min": 900
+  },
+  {
+    "warehouse_id": 7,
+    "address": "Stop 5",
+    "latitude": 19.207668,
+    "longitude": 72.954969,
+    "window_start_min": 540,
+    "window_end_min": 930
+  },
+  {
+    "warehouse_id": 7,
+    "address": "Stop 6",
+    "latitude": 19.184161,
+    "longitude": 72.939331,
+    "window_start_min": 540,
+    "window_end_min": 960
+  },
+  {
+    "warehouse_id": 7,
+    "address": "Stop 7",
+    "latitude": 19.189138,
+    "longitude": 72.972925,
+    "window_start_min": 540,
+    "window_end_min": 1020
+  },
+  {
+    "warehouse_id": 7,
+    "address": "Stop 8",
+    "latitude": 19.22224,
+    "longitude": 72.970367,
+    "window_start_min": 540,
+    "window_end_min": 1080
+  },
+  {
+    "warehouse_id": 7,
+    "address": "Stop 9",
+    "latitude": 19.222078,
+    "longitude": 72.998091,
+    "window_start_min": 540,
+    "window_end_min": 1080
+  },
+  {
+    "warehouse_id": 7,
+    "address": "Stop 10",
+    "latitude": 19.215127,
+    "longitude": 72.990864,
+    "window_start_min": 540,
+    "window_end_min": 750
+  },
+  {
+    "warehouse_id": 7,
+    "address": "Stop 11",
+    "latitude": 19.172487,
+    "longitude": 72.967157,
+    "window_start_min": 540,
+    "window_end_min": 780
+  },
+  {
+    "warehouse_id": 7,
+    "address": "Stop 12",
+    "latitude": 19.163002,
+    "longitude": 72.957802,
+    "window_start_min": 630,
+    "window_end_min": 810
+  },
+  {
+    "warehouse_id": 7,
+    "address": "Stop 13",
+    "latitude": 19.167363,
+    "longitude": 72.932241,
+    "window_start_min": 840,
+    "window_end_min": 1020
+  },
+  {
+    "warehouse_id": 8,
+    "address": "Stop 1",
+    "latitude": 19.272578,
+    "longitude": 72.965612,
+    "window_start_min": 540,
+    "window_end_min": 1050
+  },
+  {
+    "warehouse_id": 8,
+    "address": "Stop 2",
+    "latitude": 19.252565,
+    "longitude": 72.984838,
+    "window_start_min": 900,
+    "window_end_min": 1080
+  },
+  {
+    "warehouse_id": 8,
+    "address": "Stop 3",
+    "latitude": 19.250708,
+    "longitude": 72.970895,
+    "window_start_min": 540,
+    "window_end_min": 810
+  },
+  {
+    "warehouse_id": 8,
+    "address": "Stop 4",
+    "latitude": 19.236823,
+    "longitude": 72.970071,
+    "window_start_min": 540,
+    "window_end_min": 840
+  },
+  {
+    "warehouse_id": 8,
+    "address": "Stop 5",
+    "latitude": 19.231154,
+    "longitude": 72.981362,
+    "window_start_min": 540,
+    "window_end_min": 870
+  },
+  {
+    "warehouse_id": 8,
+    "address": "Stop 6",
+    "latitude": 19.245963,
+    "longitude": 72.991782,
+    "window_start_min": 540,
+    "window_end_min": 900
+  },
+  {
+    "warehouse_id": 8,
+    "address": "Stop 7",
+    "latitude": 19.233523,
+    "longitude": 72.993035,
+    "window_start_min": 750,
+    "window_end_min": 930
+  },
+  {
+    "warehouse_id": 8,
+    "address": "Stop 8",
+    "latitude": 19.268932,
+    "longitude": 72.9881,
+    "window_start_min": 570,
+    "window_end_min": 1020
+  },
+  {
+    "warehouse_id": 8,
+    "address": "Stop 9",
+    "latitude": 19.225575,
+    "longitude": 72.993507,
+    "window_start_min": 600,
+    "window_end_min": 1020
+  },
+  {
+    "warehouse_id": 8,
+    "address": "Stop 10",
+    "latitude": 19.227682,
+    "longitude": 72.969131,
+    "window_start_min": 540,
+    "window_end_min": 960
+  },
+  {
+    "warehouse_id": 9,
+    "address": "Thane-Kalyan Stop 1",
+    "latitude": 19.2183,
+    "longitude": 73.1524,
+    "window_start_min": 540,
+    "window_end_min": 990
+  },
+  {
+    "warehouse_id": 9,
+    "address": "Thane-Kalyan Stop 2",
+    "latitude": 19.2207,
+    "longitude": 73.1548,
+    "window_start_min": 720,
+    "window_end_min": 840
+  },
+  {
+    "warehouse_id": 9,
+    "address": "Thane-Kalyan Stop 3",
+    "latitude": 19.2171,
+    "longitude": 73.1509,
+    "window_start_min": 870,
+    "window_end_min": 990
+  },
+  {
+    "warehouse_id": 9,
+    "address": "Thane-Kalyan Stop 4",
+    "latitude": 19.2195,
+    "longitude": 73.1532,
+    "window_start_min": 900,
+    "window_end_min": 1020
+  },
+  {
+    "warehouse_id": 9,
+    "address": "Thane-Kalyan Stop 5",
+    "latitude": 19.2219,
+    "longitude": 73.1515,
+    "window_start_min": 540,
+    "window_end_min": 1050
+  },
+  {
+    "warehouse_id": 9,
+    "address": "Thane-Kalyan Stop 6",
+    "latitude": 19.2164,
+    "longitude": 73.1498,
+    "window_start_min": 570,
+    "window_end_min": 690
+  },
+  {
+    "warehouse_id": 9,
+    "address": "Thane-Kalyan Stop 7",
+    "latitude": 19.2201,
+    "longitude": 73.1556,
+    "window_start_min": 540,
+    "window_end_min": 720
+  },
+  {
+    "warehouse_id": 9,
+    "address": "Thane-Kalyan Stop 8",
+    "latitude": 19.2189,
+    "longitude": 73.1521,
+    "window_start_min": 630,
+    "window_end_min": 750
+  },
+  {
+    "warehouse_id": 9,
+    "address": "Thane-Kalyan Stop 9",
+    "latitude": 19.2156,
+    "longitude": 73.1487,
+    "window_start_min": 540,
+    "window_end_min": 780
+  },
+  {
+    "warehouse_id": 9,
+    "address": "Thane-Kalyan Stop 10",
+    "latitude": 19.2223,
+    "longitude": 73.1541,
+    "window_start_min": 540,
+    "window_end_min": 1080
+  }
+]
