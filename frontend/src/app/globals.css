@@ -1,0 +1,267 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: var(--font-geist-sans), system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+/* Engineered display face for landing headings only. */
+.font-display {
+  font-family: var(--font-display), var(--font-geist-sans), system-ui, sans-serif;
+  letter-spacing: -0.015em;
+}
+.font-mono-ui {
+  font-family: var(--font-geist-mono), ui-monospace, monospace;
+  font-feature-settings: "tnum" 1;
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+    --primary: 0 0% 9%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 0 0% 3.9%;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+  }
+  .dark {
+    --background: 0 0% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 9%;
+    --secondary: 0 0% 14.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 0 0% 14.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 0 0% 83.1%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* ---- Auth pages: animated route illustration ---- */
+
+/* Marching dashes flowing along the auth-page route lines. */
+.lp-route {
+  stroke-dasharray: 9 7;
+  animation: lp-dash 6s linear infinite;
+}
+.lp-route--slow {
+  animation-duration: 11s;
+}
+@keyframes lp-dash {
+  to {
+    stroke-dashoffset: -320;
+  }
+}
+
+/* Pulsing depot / stop nodes on the auth-page route. */
+.lp-pulse {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: lp-pulse 2.6s ease-in-out infinite;
+}
+@keyframes lp-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.95;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 0.35;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lp-route,
+  .lp-pulse {
+    animation: none;
+  }
+}
+
+/* ---- Fleet route map ---- */
+
+/* Animated marching dashes along the focused truck's route, flowing in the
+   direction of travel (depot -> stops -> depot). */
+.route-flow {
+  stroke-dasharray: 14 10;
+  stroke-linecap: round;
+  animation: route-flow-dash 0.9s linear infinite;
+}
+@keyframes route-flow-dash {
+  to {
+    stroke-dashoffset: -24;
+  }
+}
+
+/* Small unlabelled dot — overview (all-trucks) mode. */
+.stop-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 9999px;
+  border: 2px solid #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+/* Numbered delivery-stop badge — focused truck's sequence. */
+.stop-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 9999px;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+/* The stop selected from the itinerary: larger, with an accent ring. */
+.stop-badge--sel {
+  width: 30px;
+  height: 30px;
+  font-size: 14px;
+  border-width: 3px;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.9), 0 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* Warehouse / depot marker. */
+.depot-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.depot-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  background: #0f172a;
+  border: 2px solid #fff;
+  font-size: 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.45);
+}
+/* The focused truck's home depot. */
+.depot-badge--start {
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.9), 0 2px 6px rgba(0, 0, 0, 0.45);
+}
+.depot-flag {
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 1px 5px;
+  border-radius: 4px;
+  background: #10b981;
+  color: #fff;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+/* Popup card. */
+.leaflet-popup-content-wrapper {
+  border-radius: 10px;
+  padding: 0;
+}
+.leaflet-popup-content {
+  margin: 0;
+  min-width: 190px;
+}
+.route-popup {
+  padding: 10px 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.route-popup__head {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 700;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+.route-popup__dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 9999px;
+  flex: none;
+}
+.route-popup__seq {
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 6px;
+}
+.route-popup__seq span {
+  font-size: 12px;
+  font-weight: 600;
+  color: #64748b;
+}
+.route-popup__row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #334155;
+}
+.route-popup__row span:last-child {
+  font-weight: 600;
+  color: #0f172a;
+}
+.route-popup__badge {
+  display: inline-block;
+  padding: 1px 8px;
+  border-radius: 9999px;
+  font-size: 11px;
+  font-weight: 600;
+}
