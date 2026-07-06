@@ -1,0 +1,15 @@
+reference,recipient,address,latitude,longitude,weight_kg,length_cm,width_cm,height_cm,volume_m3,priority,window_start,window_end,warehouse
+INV-2001,Powai Provisions,"Hiranandani Gardens, Powai, Mumbai",19.1176,72.9060,45,60,45,40,,high,09:30,12:30,Mumbai - Andheri East
+INV-2002,Bandra Boutique,"Linking Road, Bandra West, Mumbai",19.0596,72.8295,12,40,30,25,,medium,10:00,14:00,
+INV-2003,Andheri Electronics,"Lokhandwala, Andheri West, Mumbai",19.1364,72.8296,80,90,60,50,,high,,,Mumbai - Andheri East
+INV-2004,Dadar Sweets,"Ranade Road, Dadar West, Mumbai",19.0178,72.8478,20,,,,0.05,low,11:00,17:00,
+INV-2005,Ghatkopar Grocers,"LBS Marg, Ghatkopar West, Mumbai",19.0860,72.9080,30,55,40,35,,2,08:30,11:30,Mumbai - Kurla
+INV-2006,Mulund Mart,"Mulund West, Mumbai",19.1726,72.9425,15,35,30,20,,medium,1:00 PM,5:00 PM,Thane - City Center
+INV-2007,Vikhroli Vendors,"Godrej Estate, Vikhroli East, Mumbai",19.1103,72.9280,60,70,50,45,,high,09:00,13:00,Mumbai - Kurla
+INV-2008,Vashi Wholesale,"Sector 17, Vashi, Navi Mumbai",19.0770,72.9986,100,100,70,60,,high,10:00,12:00,Navi Mumbai - Vashi
+INV-2009,Kharghar Kirana,"Sector 12, Kharghar, Navi Mumbai",19.0473,73.0699,25,50,40,30,,low,,,Navi Mumbai - Belapur
+INV-2010,Airoli Agencies,"Sector 8, Airoli, Navi Mumbai",19.1590,72.9960,40,60,45,40,,medium,14:00,18:00,
+INV-2011,Ghodbunder Goods,"Ghodbunder Road, Thane West",19.2500,72.9800,55,65,50,40,,medium,09:30,15:30,Thane - Ghodbunder Corridor
+INV-2012,Kalyan Distributors,"Kalyan West, Thane",19.2437,73.1355,70,80,55,50,,high,08:00,11:00,Thane - Kalyan
+INV-2013,Panvel Provisions,"Old Panvel, Navi Mumbai",18.9894,73.1175,18,40,35,25,,low,12:00,16:00,Navi Mumbai - Belapur
+INV-2014,Colaba Curios,"Colaba Causeway, Mumbai",,,22,45,35,30,,medium,10:30,13:30,
